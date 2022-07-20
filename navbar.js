@@ -5,4 +5,4 @@ function myserch(event)
     let query=document.getElementById("query").value;
     console.log(query);
     
-}
+} 
