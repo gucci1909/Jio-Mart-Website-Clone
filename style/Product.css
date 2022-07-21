@@ -87,30 +87,30 @@ body{
 #stock{
     width: 90px;
     font-size: 21px;
-    color: white;
+    color: black;
     cursor: pointer;
     font-style:'Open Sans', sans-seri;
-    background-color: grey;
+    background-color: white;
     border: 1px solid grey;
     border-radius: 5px
 }
 #peach{
     width: 90px;
     font-size: 21px;
-    color: white;
+    color: black;
     cursor: pointer;
     font-style:'Open Sans', sans-seri;
-    background-color: grey;
+    background-color: white;
     border: 1px solid grey;
     border-radius: 5px
 }
 #plum{
     width: 90px;
     font-size: 21px;
-    color: white;
+    color: black;
     cursor: pointer;
     font-style:'Open Sans', sans-seri;
-    background-color: grey;
+    background-color: white;
     border: 1px solid grey;
     margin-top: 10px;
     border-radius: 5px
@@ -118,10 +118,10 @@ body{
 #avocado{
     width: 110px;
     font-size: 21px;
-    color: white;
+    color: black;
     cursor: pointer;
     font-style:'Open Sans', sans-seri;
-    background-color: grey;
+    background-color: white;
     border: 1px solid grey;
     border-radius: 5px;
     margin-top: 10px;
@@ -207,10 +207,10 @@ body{
 #nec{
     width: 120px;
     font-size: 21px;
-    color: white;
+    color: black;
     cursor: pointer;
     font-style:'Open Sans', sans-seri;
-    background-color: grey;
+    background-color: white;
     border: 1px solid grey;
     border-radius: 5px;
     margin-top: 10px;
