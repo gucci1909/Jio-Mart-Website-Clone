@@ -1,0 +1,322 @@
+.h1{
+    position: absolute;
+    height: 2px;
+    font-size: 16px;
+    color: white;
+    line-height: 17px;
+    margin-left: 12px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+body{
+    background-color: rgb(241, 241, 245);
+}
+.class{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#products{
+    display: grid;
+    width: 85%;
+    margin-left: 200px;
+    height: 2700px;
+    /* height: auto; */
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(5,530px);
+    gap: -20px;
+    background-color: white;
+}
+.name{
+    font-family: 'Open Sans', sans-seri;
+        font-size: 17px;
+    color: #151b39;
+    margin-left: 10px;
+    line-height: 18px;
+}
+.class{
+    margin-left: 20px;
+    margin-top: 40px;
+    justify-items: auto;
+    padding-top: 50px;
+    width: 260px;
+
+    /* margin-bottom: 10/0px; */
+    margin-right: 20px;
+    height: 450px;
+}
+.img1
+{
+    height: 60px;
+    margin-top: -50px;
+    /* position: absolute; */
+    cursor: pointer;
+}
+.h2
+{
+    position: absolute;
+    height: 2px;
+    font-size: 16px;
+    color: white;
+    line-height: 17px;
+    margin-left: 12px;
+    margin-top: -17px;
+    cursor: pointer;
+}
+.pr{
+    margin-left: 20px;
+    position: absolute;
+    font-style:'Open Sans', sans-seri;
+    padding-top: 0px;
+    margin-top: 300px;
+    
+}
+#stock
+{
+    position: absolute;
+
+}
+#filter2{
+    margin-top: 60px;
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+    font-weight: lighter;
+
+}
+#id
+{
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+}
+#stock{
+    width: 90px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px
+}
+#peach{
+    width: 90px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px
+}
+#colouring{
+    margin-top: 60px;
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+    font-weight: lighter;
+
+}
+#plum{
+    width: 140px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 10px;
+    border-radius: 5px
+}
+#avocado{
+    width: 110px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+#lth{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: -40px;
+    position: absolute;
+}
+#black{
+    margin-top: 50px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    width: 80px;
+    font-size: 21px;
+    margin-left: -0px;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    border-radius: 5px;
+
+
+}
+#htl{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 340px;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+.image{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -60px;
+}
+
+.image123{
+    margin-left: 470px;
+}
+#show{
+    margin-top: 30px;
+    margin-left: 210px;
+    font-size: 22px;
+    color: rgb(51, 45, 45);
+    font-style:'Open Sans', sans-seri;
+    position: absolute;
+    
+
+}
+#sor{
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+    margin-left: 10px;
+}
+#ap
+{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 600px;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+#dis{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 470px;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+#sorting{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 600px;
+    width: 800px;
+    height: 50px;
+}
+#grey{
+    margin-top: 90px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    width: 80px;
+    font-size: 21px;
+    margin-left: -0px;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    border-radius: 5px;
+}
+#nec{
+    width: 70px;
+    font-size: 21px;
+    color: black;
+    margin-left: 0px;
+    position: absolute;
+
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#filter
+{
+    border: 1px solid white;
+    width: 180px;
+    position: absolute;
+    height: 800px;
+    background-color: white;
+
+}
+.pricing{
+    text-decoration: line-through;
+    margin-left: 70px;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    position:absolute;
+    font-weight: bolder;
+}
+.pricing1{
+    
+        text-decoration: line-through;
+        margin-left: 80px;
+        font-weight: bolder;
+        position:absolute;
+        font-size: 20px;
+        margin-top: 300px;
+}
+.pricing2{
+        margin-left: 18px;
+        font-weight: bold;
+        font-size: 25px;
+        position:absolute;
+        margin-top: 350px;
+
+}
+.button{
+    margin-top: 300px;
+    margin-left: 130px;
+    border-radius: 5px;
+    background-color: rgb(92, 202, 239);
+    height: 30px;
+    border: 1px solid white;
+}
+.pricing3{
+    
+    margin-left: 31px;
+    font-weight: bold;
+    font-size: 25px;
+    position:absolute;
+    margin-top: 350px;
+
+}
+
+
