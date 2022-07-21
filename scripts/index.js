@@ -28,5 +28,45 @@ function showSlides(n) {
 }
 
 
-
 // second slider
+
+let left=1;
+let right=7;
+    function show(){
+        for(let i=left;i<=right;i++){
+            document.getElementById(i).style.display="inline-block"
+        }
+    }
+
+    function moveleft(){
+        if(left<=7 && right<=15){
+            document.getElementById(left).style.display="none"
+        left+=1;
+        right+=1;
+        for(let i=left;i<=right;i++){
+            document.getElementById(i).style.display="inline-block"
+        }
+
+        }else{
+            return;
+        }
+       
+    }
+
+    function moveright(){
+        if(left>=2 && right>=6){
+            document.getElementById(right).style.display="none"
+        left-=1;
+        right-=1;
+        for(let i=left;i<=right;i++){
+            document.getElementById(i).style.display="inline-block"
+        }
+
+        }else{
+            return;
+        }
+
+        
+    }
+
+

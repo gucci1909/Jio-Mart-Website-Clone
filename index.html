@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
+<body onload="show()" >
    <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -84,112 +84,103 @@
   </div>
 
 
-  <div class="boxes">
+  <div id="box1">
     <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1656959459_monsoon-umberalla_1280-x-137.jpg">
   </div>
   
-  <div class="boxes">
+  <div id="box2">
     <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1654714506_Free-Home-Delivery--strip-1240-X-162.jpg">
   </div>
   
-  <div class="boxes">
+  <div id="box3">
     <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1658255337_July_20_Slim-banner-web.jpg">
   </div>
   
-  <div class="boxes">
+  <div id="box4">
     <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1653988428_Wednesday-Bonus_1680x320.jpg">
   </div>
 
- 
     <h1>Shop from Top Categories</h1>
-<!-- 
-    <div class="second_slideshow">
 
-    <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109073_1654018509_Fruits-Veg.jpg" style="width:100%">
+    <!-- second slider -->
+
+    <div class="parent">
+      <div id="left" onclick="moveleft()">
+          <button>&lt;</button>
+      </div>
+      <div class="child" id="1">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109073_1654018509_Fruits-Veg.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109088_1654018530_Beverage-Corner.jpg" style="width:100%">
+      <div class="child" id="2">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109088_1654018530_Beverage-Corner.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109143_1656693044_Foodgrains-Oils.jpg" style="width:100%">
+      <div class="child" id="3">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109143_1656693044_Foodgrains-Oils.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109179_1654018570_Snacks-FOOD.jpg" style="width:100%">
+      <div class="child" id="4">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109179_1654018570_Snacks-FOOD.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109205_1654018587_Home-care.jpg" style="width:100%">
+      <div class="child" id="5">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109205_1654018587_Home-care.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109260_1654018604_personal-Care.jpg" style="width:100%">
+      <div class="child" id="6">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109260_1654018604_personal-Care.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109280_1654018629_Dairy-Bakery.jpg" style="width:100%">
+      <div class="child" id="7">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109280_1654018629_Dairy-Bakery.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109301_1654018647_Instant-Foods.jpg" style="width:100%">
+      <div class="child" id="8">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109301_1654018647_Instant-Foods.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109327_1654018658_Home-Kitchen.jpg" style="width:100%">
+      <div class="child" id="9">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109327_1654018658_Home-Kitchen.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109344_1654018675_Mens-Wear.jpg" style="width:100%">
+      <div class="child" id="10">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109344_1654018675_Mens-Wear.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109379_1654018684_Womens-Wear.jpg" style="width:100%">
+      <div class="child" id="11">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109379_1654018684_Womens-Wear.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg" style="width:100%">
+      <div class="child" id="12">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109544_1656508232_washing-Machine.jpg" style="width:100%">
+      <div class="child" id="13">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109544_1656508232_washing-Machine.jpg">
       </div>
 
-      <div class="mySlides-fade">
-        <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109495_1654018730_Smartphones.jpg" style="width:100%">
+      <div class="child" id="14">
+          <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109495_1654018730_Smartphones.jpg">
       </div>
       
 
+      <div id="right" onclick="moveright()">
+          <button>&gt;</button>
+      </div>
+  </div>
 
+
+  <div id="fifthbox">
+    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1624041574_web_static.jpg">
+  </div>
 
     
 
 
-  </div> -->
 
 
-  <div id="box">
-    <div id="moving">
-      <img class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109495_1654018730_Smartphones.jpg " alt="zappos1">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109544_1656508232_washing-Machine.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      <img  class="image" src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1657109408_1654018699_Kids-WEAR.jpg " alt="zappos2">
-      
 
-    </div>
-  </div>
 
   
 
