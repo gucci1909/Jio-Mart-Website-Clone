@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar {
+            background-color: #008ecc;
+            margin-bottom: 20px;
+            position: fixed;
+            /* top: 10px; */
+            /* left: 0; */
+            width: 23%;
+            /* overflow: hidden; */
+            /* padding: 50px; */
+
+        }
+
+        body>div {
+            width: 23%;
+        }
+
+        #first {
+            display: flex;
+            /* background-color: #008ecc; */
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            width: 90%;
+            margin: auto;
+            height: 50px;
+        }
+
+        #logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #logo>h2,
+        #logo~h2 {
+            color: white;
+            font-weight: 100;
+        }
+
+        #first>div>img {
+            width: 20px;
+            height: 20px;
+            align-items: center;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        #second {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+        }
+
+        #second>button {
+            padding: 5px 45px 5px 45px;
+            background-color: #008ecc;
+            border: 1px solid white;
+            color: white;
+            margin-bottom: 10px;
+
+
+
+        }
+
+        ul>li>a {
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px;
+            margin: 14px;
+            display: block;
+            /* padding: 14px 16px; */
+            background-color: transparent;
+            margin-bottom: 20px;
+            /* border: 1px solid red; */
+
+        }
+
+        ul>ul {
+            border-bottom: 4px solid gray;
+
+        }
+
+
+        div>ul{
+            margin-top: 100px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #footer {
+            width: 90%;
+            margin: auto;
+            /* border-top: 4px solid gray; */
+
+        }
+
+        #footer>h1 {
+            font-size: 14px;
+            text-transform: uppercase;
+            margin: 10px;
+            margin-left: 0;
+        }
+
+        #footer>p {
+            margin: 10px;
+            margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 23%; overflow: scroll;">
+        <div id="navbar">
+            <div id="first">
+                <div id="logo">
+                    <img src="https://w7.pngwing.com/pngs/831/88/png-transparent-user-profile-computer-icons-user-interface-mystique-miscellaneous-user-interface-design-smile-thumbnail.png"
+                        alt="">
+                    <h2>
+                        Hello,
+                    </h2>
+
+                </div>
+
+                <h2>x</h2>
+            </div>
+            <div id="second">
+                <button>ACCOUNT</button>
+                <button>ORDERS</button>
+            </div>
+
+        </div>
+
+
+        <ul>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop by Category</a></li>
+                <li><a href="">My List</a></li>
+                <li><a href="">JioMart Wallet</a></li>
+                <li><a href="">JioMart Gift Store</a></li>
+                <li><a href="">GoGreen with JioMart</a></li>
+                <li><a href="">All Offers</a></li>
+
+
+            </ul>
+            <ul>
+                <li><a href="">MY Account</a></li>
+                <li><a href="">Need Help</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Guide</a></li>
+            </ul>
+        </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="footer">
+
+            <h1>CONTACT US</h1>
+            <span> WhatsApp us :
+                <a href="https://wa.me/917000370003?text=Hi" target="_blank">70003 70003</a>
+            </span>
+            <br>
+            <span>
+                Call Us :
+                <a href="https://www.jiomart.com/tel:1800%20890%201222">1800 890 1222</a>
+            </span>
+            <p>8:00 AM to 8:00 PM, 365 days</p>
+            <p>Please note that you are accessing the BETA Version of <a
+                    href="https://www.jiomart.com/">www.jiomart.com</a> </p>
+            <p>Should you encounter any bugs, glitches, lack of functionality, delayed deliveries, billing errors or
+                other problems on the beta website, please email us on <a
+                    href="mailto:cs@jiomart.com">cs@jiomart.com</a></p>
+            <h1>DOWNLOAD APP</h1>
+            <div id="">
+                <a href="https://play.google.com/store/apps/details?id=com.jpl.jiomart">
+                    <img src="https://www.jiomart.com/images/cms/wysiwyg/app-icons/play_store.png" alt="">
+                </a>
+                <a href="https://apps.apple.com/in/app/jiomart/id1522085683"> <img
+                        src="	https://www.jiomart.com/images/cms/wysiwyg/app-icons/ios_store.png" alt=""></a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+<!-- <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script> -->
