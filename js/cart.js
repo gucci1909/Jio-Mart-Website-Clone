@@ -132,5 +132,5 @@ let display2=(data1)=>
 }
 display2(data2)
 function button1(){
-    window.location.href = "address.html"
+    window.location.href = "Address.html"
 }

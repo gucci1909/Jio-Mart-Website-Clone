@@ -15,7 +15,7 @@
     margin-left: 10px;
 }
 body{
-    background-color: rgb(241, 241, 245);;
+    background-color: rgb(241, 241, 245);
 }
 #cartva{
     width: 180px;
@@ -31,6 +31,7 @@ body{
     font-size: 24px;
 
 }
+
 #process{
     margin-top: -50px;
     display: flex;
