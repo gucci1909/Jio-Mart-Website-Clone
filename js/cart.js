@@ -2,7 +2,7 @@ let data = JSON.parse(localStorage.getItem("counter"));
 let carting = document.getElementById("cartva");
 let mycart = document.createElement("h1");
 mycart.innerText = `My Cart (${data})`;
-mycart.className = "mycart"
+mycart.className = "mycart";
 carting.append(mycart);
 let data2 = JSON.parse(localStorage.getItem("cart"));
 let display=(dat)=>
@@ -49,7 +49,6 @@ let display=(dat)=>
         let save = document.createElement("p");
         save.innerHTML = `YOU SAVE &#8377 ${Math.abs(ele.price1-ele.price)}`;
         save.className = "save";
-
         let cprice = document.createElement("p");
         cprice.innerHTML = `&#8377`;
         cprice.setAttribute("class","pricing")
@@ -59,7 +58,6 @@ let display=(dat)=>
         cat.innerText = `Category : ${ele.category}`;
         cat.className = "cat"
         ccprice.setAttribute("class","pricing1");
-        
         let dis = document.createElement("p");
         dis.innerText =`Discount : ${ele.discount}` ;
         dis.className="dis"

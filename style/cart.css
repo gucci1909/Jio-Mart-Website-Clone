@@ -110,7 +110,6 @@ body{
 .h68{
     
     margin-top: 145px;
-    /* text-decoration: line-through; */
     margin-left: 220px;
    position:absolute; 
    font-weight: bold;
@@ -278,7 +277,7 @@ body{
     position: absolute;
     font-size: 21px;
     margin-left: 390px;
-    margin-top: 105px;
+    margin-top: 101px;
 }
 .h89{
     position: absolute;

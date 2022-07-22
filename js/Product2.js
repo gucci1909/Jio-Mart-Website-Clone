@@ -248,11 +248,10 @@ let search = async() =>{
   
       })
   
-  }
-  // display(Product2)
+}
   
-   let ssn = async() =>
-  {
+let ssn = async() =>
+{
     let Product2 = await search()
     
      Product2.sort(function (a,b)
@@ -261,7 +260,7 @@ let search = async() =>{
     })
     display(Product2)
   
-  }
+}
   let bbn = async() =>
   {
     let Product2 = await search()
