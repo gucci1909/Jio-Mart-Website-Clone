@@ -1,0 +1,25 @@
+#main{
+    border: 1px solid black;
+}
+
+#account{
+    border: 1px solid black;
+    background-color: #1857a7;
+    color: white;
+}
+
+#profile_img{
+    width: 50px;
+}
+
+#wallet_img{
+    width: 40px;
+}
+
+#account_info{
+    border: 1px solid black;
+}
+
+#menu{
+    border: 1px solid black;
+}
