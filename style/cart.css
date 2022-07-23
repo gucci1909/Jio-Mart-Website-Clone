@@ -14,8 +14,9 @@
 .logo78{
     margin-left: 10px;
 }
-body{
+#body{
     background-color: rgb(241, 241, 245);
+    margin-top: -40px;
 }
 #cartva{
     width: 180px;
@@ -33,10 +34,10 @@ body{
 }
 
 #process{
-    margin-top: -50px;
+    margin-top: -30px;
     display: flex;
     width: 600px;
-    margin-left: 700px;
+    margin-left: 730px;
 }
 .htm{
     margin-top: 125px;

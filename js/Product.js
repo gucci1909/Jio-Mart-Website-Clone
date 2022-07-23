@@ -23,7 +23,7 @@ function display(data)
       h2.setAttribute("class" , "h2");
       let img1 = document.createElement("img");
       img1.setAttribute("src","https://www.jiomart.com/assets/version1657814599/smartweb/images/icons/offer_bg.svg")
-      img1.setAttribute("class","img1");
+      img1.setAttribute("class","img145");
       let div = document.createElement("div");
       div.className="class"
       let img = document.createElement("img");

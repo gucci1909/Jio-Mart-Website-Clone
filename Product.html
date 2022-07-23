@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avocado,Peach,Plum</title>
     <link rel="stylesheet" href="./style/Product.css">
-    <!-- <link rel="stylesheet" href="./style/navbar.css"> -->
+    <link rel="stylesheet" href="./style/navbar.css">
 </head>
 <body>
-    <div id="navbar"></div>
+    <nav id="navbars"></nav>
+    <div id="body">
     <div>
         <img src="https://www.jiomart.com/images/category/3108/avocado-peach-plum-20220524.jpeg" class="image123" alt="jiomart">
     </div>
@@ -31,6 +32,12 @@
     <button onclick="Nectarine()" id="nec">Nectarine</button>
     </div>
     <div id="products"></div>
+    </div>
 </body>
 </html>
 <script src="./js/Product.js"></script>
+<script type="module">
+    import {navbar} from "./components/navbars.js"
+    document.getElementById("navbars").innerHTML = navbar();
+</script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>

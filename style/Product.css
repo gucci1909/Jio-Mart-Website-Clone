@@ -8,7 +8,7 @@
     margin-bottom: 3px;
     cursor: pointer;
 }
-body{
+#body{
     background-color: rgb(241, 241, 245);
 }
 .class{
@@ -29,7 +29,7 @@ body{
 }
 .name{
     font-family: 'Open Sans', sans-seri;
-        font-size: 17px;
+        font-size: 21px;
     color: #151b39;
     margin-left: 10px;
     line-height: 18px;
@@ -43,7 +43,7 @@ body{
     margin-right: 20px;
     height: 310px;
 }
-.img1
+.img145
 {
     height: 60px;
     margin-bottom: 100px;
@@ -74,7 +74,7 @@ body{
 
 }
 #filter2{
-    margin-top: 60px;
+    margin-top: 80px;
     font-style:'Open Sans', sans-seri;
     font-size: 21px;
 
@@ -137,7 +137,7 @@ body{
     border: 1px solid grey;
     border-radius: 5px;
     margin-left: 220px;
-    margin-top: -40px;
+    margin-top: -60px;
     position: absolute;
 }
 #htl{
@@ -151,10 +151,11 @@ body{
     position: absolute;
     margin-left: 340px;
     border-radius: 5px;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 .image123{
-    margin-left: 330px;
+    margin-left:650px;
+    margin-top: 20px;
 }
 #show{
     margin-top: 30px;
@@ -182,7 +183,7 @@ body{
     position: absolute;
     margin-left: 600px;
     border-radius: 5px;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 #dis{
     width: 110px;
@@ -195,14 +196,17 @@ body{
     position: absolute;
     margin-left: 470px;
     border-radius: 5px;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 #sorting{
+    /* position: absolute; */
     border: 1px solid white;
     border-radius: 20px;
     background-color: white;
-    margin-left: 610px;
+    margin-left: 750px;
+    /* margin-bottom: 200px; */
     height: 50px;
+    width: 750px;
 }
 #nec{
     width: 120px;

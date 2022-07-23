@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Men's Wear</title>
     <link rel="stylesheet" href="./style/Product2.css">
-    <!-- <link rel="stylesheet" href="./style/navbar.css"> -->
+    <link rel="stylesheet" href="./style/navbar.css">
 </head>
 <body>
-    <div id="navbar"></div>
+    <nav id="navbars"></nav>
+    <div id="body">
     <div>
         <img src="https://www.jiomart.com/images/category/496/men-20200831.jpg" class="image123" alt="jiomart">
     </div>
@@ -32,6 +33,12 @@
     <button onclick="Grey()" id="grey">Grey</button>
     </div>
     <div id="products"></div>
+    </div>
 </body>
 </html>
 <script src="./js/Product2.js"></script>
+<script type="module">
+    import {navbar} from "./components/navbars.js"
+    document.getElementById("navbars").innerHTML = navbar();
+</script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>

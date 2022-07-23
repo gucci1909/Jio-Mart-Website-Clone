@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buy Grocery Online at Best Price</title>
     <link rel="stylesheet" href="./style/cart.css">
-    <!-- <link rel="stylesheet" href="./style/navbar.css"> -->
+    <link rel="stylesheet" href="./style/navbar.css">
 </head>
 <body>
-    <div id="navbar"></div>
+    <div id="navbars"></div>
+    <div id="body">
     <div id="cartva"></div>
     <div id="process">
         <img src="https://www.jiomart.com/msassets/images/icons/cart_blue_active.svg" class="logo78" alt="">
@@ -25,8 +26,14 @@
     <div id="cartitems"></div>
     <div id="payment"></div>
     </div>
+    </div>
 
     
 </body>
 </html>
 <script src="./js/cart.js"></script>
+<script type="module">
+    import {navbar} from "./components/navbars.js"
+    document.getElementById("navbars").innerHTML = navbar();
+</script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
