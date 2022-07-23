@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
     <link rel="stylesheet" href="./signin.css">
-    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./component_styles/navbar.css">
+    <link rel="stylesheet" href="./component_styles/footer.css">
 </head>
 <body>
     <div id="navbars"></div>
@@ -27,10 +28,14 @@
     <div id="end">
         <p>By continuing you agree to our Terms of Service<br>and Privacy & Legal Policy</p>
     </div>
+
+    <!-- footer -->
+
+    <div id="footers"></div>
 </body>
 </html>
 
-<script src="./signin.js"></script>
+<script src="./signin.js" type="module"></script>
 
 <script type="module">
     import {navbar} from "./component/navbar.js"

@@ -1,3 +1,6 @@
+import footer from "./component/footer.js"
+document.getElementById("footers").innerHTML=footer()
+
 let loginData=JSON.parse(localStorage.getItem("loginData")) || []
 let loginNumber=localStorage.getItem("loginNumber")
 

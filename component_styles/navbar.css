@@ -268,36 +268,36 @@ input
 
 
 
-#box
+#box_
   {
     width: 170px;
     height: 70px;
     border: 1px solid transparent;
     display: flex;
   }
-  #box2
+  #box_2
   {
     width: 30px;
     height: 70p;
     border: 1px solid transparent;
     align-items: center;
   }
-  #box2>a>img
+  #box_2>a>img
   {
     width: 28px;
     margin-top: 20px;
   }
-  #box3
+  #box_3
   {
     width: 140px;
     height: 70px;
     border: 1px solid transparent;
     line-height: 70px;
   }
-  #box3>p{
+  #box_3>p{
     font-size: 15px;
     margin-top: 0px;
   }
- #box3>p> a{
+ #box_3>p> a{
     text-decoration: none;
   }
