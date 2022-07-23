@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="./style/payment.css">
+    <link rel="stylesheet" href="./style/footers.css">
+</head>
+<body>
+    <div id="nav">
+        <img src="https://www.jiomart.com/msassets/jiomart_logo_beta.svg" alt="" id="navb">
+    </div>
+    <div id="cartvar"></div>
+
+    <div id="process">
+        <img src="https://www.jiomart.com/msassets/images/icons/cart_blue_active.svg" class="logo78" alt="">
+        <p class="ccc">Your Cart</p>
+        <p class="cart"></p>
+        <img src="https://www.jiomart.com/msassets/images/icons/orders_review_active.svg" class="logo78" alt="">
+        <p class="ccc">Order Summary</p>
+        <p class="cart"></p>
+        <img src="https://www.jiomart.com/msassets/images/icons/credit-debit-card-lblue.svg"class="logo789" alt="">
+        <p class="ccc">Payment</p>
+    </div>
+    <h1 id="las">Payment</h1>
+    <h1 id="la">Select Delivery address</h1>
+    <div id="main">
+    <div id="payment"></div>
+    <div>
+    <div id="container"></div>
+    <h1 id="last">Payment Methods</h1>
+    <div id="butt">
+
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Pay on Delivery</div>
+        </label>
+      
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Credit/Debit Card</div>
+        </label>
+      
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Paytm/Phone Pay/Google Pay</div>
+        </label>
+      
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="rad">
+          <div class="rad-design"></div>
+          <div class="rad-text">Net Banking</div>
+        </label>
+      
+      </div>
+    </div>
+    </div>
+    <div id="footer"></div>
+    
+</body>
+</html>
+<script type="module">
+    import footer from "./components/footer.js"
+    document.getElementById("footer").innerHTML = footer();
+</script>
+<script src="./js/payment.js"></script>

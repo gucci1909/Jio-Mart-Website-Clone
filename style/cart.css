@@ -75,13 +75,14 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     color: white;
-    padding-top: -10px;
+    padding-top: -50px;
+    padding-bottom: -7px;
     border-radius: 20px;
     width: 170px;
     padding-left:20px ;
     height: 30px;
     background-color: red;
-    font-size: 21px;
+    font-size: 24px;
     cursor: pointer;
 
 }

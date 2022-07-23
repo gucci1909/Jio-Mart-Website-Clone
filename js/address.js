@@ -15,7 +15,7 @@ let getData= ()=>
     display(city);
 }
 let yes = ()=>{
-    var info = JSON.parse(localStorage.getItem("inform")) || [];
+    var info = JSON.parse(localStorage.getItem("address")) || [];
     let city = document.getElementById("incity");
     let name = document.getElementById("name");
     let mobile = document.getElementById("mobile");
@@ -26,7 +26,7 @@ let yes = ()=>{
     let inform = new product(city.value,name.value,mobile.value,pin.value,house.value,local.value,state.value);
     info.push(inform);
     alert(`${name.value} Your Address has been Added`)
-    localStorage.setItem("inform",JSON.stringify(info));
+    localStorage.setItem("address",JSON.stringify(info));
     city.value = null;
     name.value = null;
     mobile.value = null;
