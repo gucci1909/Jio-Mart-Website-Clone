@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
 </head>
 <body onload="show()">
+  <div id="navbars">
+
+  </div>
+
    <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -88,12 +93,12 @@
     <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1656959459_monsoon-umberalla_1280-x-137.jpg">
   </div>
   
-  <div id="box2">
+  <div id="boxes2">
     <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1654714506_Free-Home-Delivery--strip-1240-X-162.jpg">
   </div>
   
-  <div id="box3">
-    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1658255337_July_20_Slim-banner-web.jpg">
+  <div id="boxes3">
+    <img src="https://www.jiomart.com/images/cms/aw_rbslider/slides/1658524824_July-22_Slim-banner2_web.jpg">
   </div>
   
   <div id="box4">
@@ -176,7 +181,7 @@
   </div>
 
   
-  <h1>Offers on Household & Personal care
+  <h1>Offers on Household & Personal Care
   </h1>
 
   <div class="eightBox">
@@ -484,3 +489,9 @@
 <script src="./scripts/index.js">
 
 </script>
+<script type="module">
+  import {navbar} from "./component/navbar.js"
+  document.getElementById("navbars").innerHTML=navbar()
+
+</script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
