@@ -5,7 +5,7 @@ function navbar(){
  <a href="#"><img src="./image/img1.PNG" alt=""></a>
   </div>
 <div id="homelogo">
-  <a href=""><img src="./image/img2.PNG" alt="">
+  <a href="./index.html"><img src="./image/img2.PNG" alt="">
   </a>
 </div>
 <div id="searchbar">
@@ -17,9 +17,9 @@ function navbar(){
 </div>
 <div id="signupin">
   <div id="signupicon">
-     <a href="signin.html"><img src="./image/img4.PNG" alt=""  ></a> 
+     <a href="./signin.html"><img src="./image/img4.PNG" alt=""  ></a> 
   </div>
-  <div id="inup"> <a href="signin.html">Sign in / sign up</a> </div>
+  <div id="inup"> <a href="./signin.html">Sign in / sign up</a> </div>
 </div>
 <div id="cart">
   <div id="cartlogo">
