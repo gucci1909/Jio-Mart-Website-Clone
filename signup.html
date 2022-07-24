@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="./component_styles/navbar3.css">
+    <link rel="stylesheet" href="./component_styles/footer.css">
+</head>
+<body>
+    <div id="navbars"></div>
+    <div id="main">
+        <div id="image">
+            <img src="https://www.jiomart.com/msassets/images/login-banner.jpg" alt="img">
+        </div>
+        <div id="text">
+            <h2>Sign Up</h2>
+            <p id="txt1">Please enter your details</p>
+            <input type="text" placeholder="Your first name" id="first_name">
+            <input type="text" placeholder="Your last name" id="last_name">
+            <input type="email" placeholder="Enter your Email Id" id="login_email">
+            <input type="password" placeholder="Enter your Password" id="login_password">
+            <p id="txt2">Use 8 or more characters with a mix of letters & numbers</p>
+            <input type="password" placeholder="Enter your Password" id="login_password_check">
+            <p id="txt4"></p>
+            <h2>Verify</h2>
+            <p id="txt3">Enter the OTP to verify - 890627</p>
+            <input type="text" placeholder="Enter Your OTP" id="login_OTP">
+            <p id="OTP_verify"></p>
+            <button id="button">Verify</button>
+        </div>
+    </div>
+    <div id="end">
+        <p>By continuing you agree to our Terms of Service<br>and Privacy & Legal Policy</p>
+    </div>
+
+    <!-- footer -->
+
+    <div id="footers"></div>
+</body>
+</html>
+
+<script src="./signup.js" type="module"></script>
+
+<script type="module">
+    import {navbar} from "./component/navbar.js"
+    document.getElementById("navbars").innerHTML=navbar()
+</script>
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>

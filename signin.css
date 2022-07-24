@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
+body{
+    background-color: #f6f6f7;
+    font-family: Roboto;
+}
+
+#main{
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: flex;
+}
+
+#main>#text{
+    width: 750px;
+    box-sizing: border-box;
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+#image>img{
+    border-radius: 15px 0px 0px 15px;
+}
+
+#login_number{
+    display: block;
+    border: 1px solid rgba(197, 189, 189, 0.637);
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+#button{
+    margin-left: 205px;
+    color: white;
+    background-color: #008ecc;
+    padding: 20px 24px;
+    border: transparent;
+    border-radius: 50%;
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+#info{
+    margin-top: -12px;
+    font-size: 14px;
+    color: rgb(105, 102, 102);
+}
+
+#end{
+    width: 300px;
+    font-size: 13px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#msg{
+    font-size: 11px;
+    margin-top: -20px;
+    color: red;
+    font-style: italic;
+}
+
+#new_input>#password{
+    display: block;
+    border: 1px solid rgba(197, 189, 189, 0.637);
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 60px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+
+#psswrd_msg{
+    font-size: 11px;
+    margin-top: -20px;
+    color: red;
+    font-style: italic;
+}
