@@ -54,8 +54,8 @@ function navbar(){
                  
                  <ul class="mega-links">
                   
-                   <li><a href="#">Fruits & Vegetables</a></li>
-                   <li><a href="#">Premium Fruits</a></li>
+                   <li><a href="./Product.html">Fruits & Vegetables</a></li>
+                   <li><a href="./Product.html">Premium Fruits</a></li>
                    <li><a href="#">Dairy & Bakery</a></li>
                    <li><a href="#">Staples</a></li>
                    <li><a href="#">Snacks & Branded Foods</a></li>
@@ -88,7 +88,7 @@ function navbar(){
                  
                  <ul class="mega-links">
                   
-                   <li><a href="Product.html">Avocado,Peach,Plum</a></li>
+                   <li><a href="./Product.html">Avocado,Peach,Plum</a></li>
                    <li><a href="#">Cherries,Barries, & Exotic</a></li>
                    <li><a href="#">Fruits</a></li>
                    <li><a href="#">Pomegranate ,Papaya &</a></li>
@@ -154,7 +154,7 @@ function navbar(){
          </li>
          <li><a href="#">Fashion <i class="fas fa-caret-down"></i></a>
            <ul class="drop-menu">
-             <li><a href="Product2.html">Men</a></li>
+             <li><a href="./Product2.html">Men</a></li>
                      <li><a href="#">Women</a></li>
                      <li><a href="#">Boys</a></li>
                      <li><a href="#">Girls</a></li>
