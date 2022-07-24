@@ -1,3 +1,5 @@
+// import footer from "../component/footer.js"
+// document.getElementById("footers").innerHTML=footer()
 let slideIndex = 1;
 showSlides(slideIndex);
 

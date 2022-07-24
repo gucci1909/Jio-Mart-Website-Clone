@@ -35,11 +35,11 @@ function navbar(){
     
     
     <div id="nav"><div class="wrapper">
-       <div id="box">
-         <div id="box2">
+       <div id="box_">
+         <div id="box2_">
            <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/450/450016.png" alt=""></a>
          </div>
-         <div id="box3">
+         <div id="box3_">
            <p>Deliver to <a href="">400030</a></p>
          </div>
           

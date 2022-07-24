@@ -72,13 +72,13 @@
   to {opacity: 1}
 }
 
-#box1,#box2,#box3,#box4{
+/* #box1,#box2,#box3,#box4{
     width: 100%;
 } 
 
 #box1 img,#box2 img, #box3 img, #box4 img{
   width: 100%;
-}
+} */
 
 
 
@@ -127,37 +127,37 @@ img:hover{
 
 }
 
-#box1{
+#box-1{
   width: 100%;
   /* border: 1px solid red; */
 }
-#box1>img{
+#box-1>img{
   width: 100%;
   height: 100%;
 }
 
-#boxes2{
+#boxes-2{
   width: 100%;
   /* border: 1px solid red; */
 }
-#boxes2>img{
+#boxes-2>img{
   width: 100%;
   height: 100%;
 }
 
-#boxes3{
+#boxes-3{
   width: 100%;
 }
-#boxes3>img{
+#boxes-3>img{
   width: 100%;
   height: 100%;
 }
 
-#box4{
+#box-4{
   width: 100%;
   /* border: 1px solid red; */
 }
-#box4>img{
+#box-4>img{
   width: 100%;
   height: 100%;
 }
@@ -200,7 +200,7 @@ img:hover{
   justify-content: center;
 }
 
-h3{
+.head{
   text-align: center;
   margin-top: 2px;
 }

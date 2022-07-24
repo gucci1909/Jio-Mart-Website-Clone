@@ -207,12 +207,14 @@ button>a>img{
   transition: all 0.3s ease;
   top: 70px;
   opacity: 1;
-  visibility: visible!important;
-  position: absolute!important;
+  visibility: visible;
+  z-index: 1;
+  overflow: auto;
+ 
 }
 .drop-menu li a{
   width: 100%;
-  /* display: block; */
+  display: block;
   padding: 0 0 0 15px;
   font-weight: 400;
   border-radius: 0px;
@@ -275,37 +277,37 @@ button>a>img{
 
 
 
-#box
+#box_
   {
     width: 170px;
     height: 70px;
     border: 1px solid transparent;
     display: flex;
   }
-  #box2
+  #box2_
   {
     width: 30px;
     height: 70p;
     border: 1px solid transparent;
     align-items: center;
   }
-  #box2>a>img
+  #box2_>a>img
   {
     width: 28px;
     height: 40px;
     
     margin-top: 10px;
   }
-  #box3
+  #box3_
   {
     width: 140px;
     height: 70px;
     border: 1px solid transparent;
     line-height: 70px;
   }
-  #box3>p{
+  #box3_>p{
     font-size: 15px;
   }
- #box3>p> a{
+ #box3_>p> a{
     text-decoration: none;
   }
