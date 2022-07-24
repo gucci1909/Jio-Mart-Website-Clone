@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Grocery Online at Best Price</title>
+    <link rel="stylesheet" href="./style/address.css">
+    <link rel="stylesheet" href="./style/footers.css">
+</head>
+<body>
+    <div id="nav">
+    <img src="https://www.jiomart.com/msassets/jiomart_logo_beta.svg" alt="" id="navb">
+    </div>
+    <div id="cartva">
+        <h1>Order Summary</h1>
+    </div>
+    <div id="cartvar"></div>
+    <div id="process">
+        <img src="https://www.jiomart.com/msassets/images/icons/cart_blue_active.svg" class="logo78" alt="">
+        <p class="ccc">Your Cart</p>
+        <p class="cart"></p>
+        <img src="https://www.jiomart.com/msassets/images/icons/orders_review_active.svg" class="logo78" alt="">
+        <p class="ccc">Order Summary</p>
+        <p class="cart"></p>
+        <img src="https://www.jiomart.com/msassets/images/icons/payment_inactive.svg"class="logo78" alt="">
+        <p class="ccc">Payment</p>
+    </div>
+    <h1 id="enter">Enter Delivery Address</h1>
+    <div id="main">
+    <div id="form">
+        <div class="head">CONTACT DETAILS</div>
+        <div id="names">
+            <input id="name" type="text" placeholder="Name*">
+        </div>
+        <div id="mobileno">
+            <input id="mobile" type="text" placeholder="Mobile No*">
+        </div>
+        <div class="head">ADDRESS</div>
+        <div id="pincode">
+            <input id="pin" type="number" placeholder="Pin Code*">
+        </div>
+        <div id="address">
+            <input id="house" type="text" placeholder="Address(House No, Building, Sreet, Area)*">
+        </div>
+        <div id="locality">
+            <input id="local" type="text" placeholder="Locality / Town*">
+        </div>
+        <div id="CITY">
+            <div id="icity">
+                <input id="incity" type="text" placeholder="City / District*">
+            </div>
+            <div id="state">
+                <input id="instate" type="text" placeholder="State*">
+            </div>
+        </div>
+        <div class="head1">SAVE ADDRESS AS</div>
+        <div id="as">
+            <button onclick="home() " id="home">Home</button>
+            <button onclick="work()" id="work">Work</button>
+        </div>
+        <div id="default">
+            <input id="checkbox" type="checkbox">
+           <p id="mark"> Make this as my default address</p>
+        </div>
+        <div id="addaddress">
+        <button id="addbutton" onclick="getData()" ondblclick="yes()">ADD ADDRESS</button>
+        </div>
+    </div>
+    <div id="container"></div> 
+    <div id="container1"></div>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div></div>
+    <div id="payment"></div>
+    </div>
+    <div id="footer"></div>
+
+</body>
+</html>
+<script type="module">
+    import footer from "./components/footer.js"
+    document.getElementById("footer").innerHTML = footer();
+</script>
+<script src="./js/address.js"></script>

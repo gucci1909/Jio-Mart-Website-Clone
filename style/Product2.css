@@ -1,0 +1,361 @@
+.h1{
+    position: absolute;
+    height: 2px;
+    font-size: 16px;
+    color: white;
+    line-height: 17px;
+    margin-left: 12px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+#body{
+    background-color: rgb(241, 241, 245);
+}
+.class{
+    border-radius: 10px;
+    width: 1100px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#products{
+    display: grid;
+    width: 1250px;
+    margin-left: 385px;
+    height: auto;
+    margin-top: 80px;
+    /* height: auto; */
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(5,580px);
+    gap: -20px;
+    background-color: #FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.name{
+    font-family: 'Open Sans', sans-seri;
+        font-size: 21px;
+        font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    /* margin-left: 200px; */
+    /* color: #000000; */
+    /* font-size: 19px; */
+    position: absolute;
+    line-height: 24px;
+    text-transform: none;
+    border: 1px solid white;
+    height: 100px;
+    width: 250px;
+
+    color: #151b39;
+    margin-top: 340px;
+
+    position: absolute;
+    margin-left: 5px;
+    line-height: 24px;
+}
+.class{
+    margin-left: 20px;
+    margin-top: 40px;
+    justify-items: auto;
+    padding-top: 50px;
+    width: 260px;
+
+    /* margin-bottom: 10/0px; */
+    margin-right: 20px;
+    height: 500px;
+}
+.img1
+{
+    height: 60px;
+    margin-top: -50px;
+    /* position: absolute; */
+    cursor: pointer;
+}
+.h2
+{
+    position: absolute;
+    height: 2px;
+    font-size: 16px;
+    color: white;
+    line-height: 17px;
+    margin-left: 12px;
+    margin-top: -17px;
+    cursor: pointer;
+}
+.pr{
+    margin-left: 20px;
+    position: absolute;
+    font-style:'Open Sans', sans-seri;
+    padding-top: 0px;
+    margin-top: 410px;
+    
+}
+#stock
+{
+    position: absolute;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#filter2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    margin-top: 60px;
+    /* font-style:'Open Sans', sans-seri;
+    font-size: 24px;*/
+    font-weight: lighter;
+
+}
+#id
+{
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+}
+#stock{
+    width: 90px;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px
+}
+#peach{
+    width: 110px;
+    font-size: 21px;
+    margin-top:-5px;
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px
+}
+#colouring{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-size: 24px;
+    margin-top: 90px;
+    /* font-style:'Open Sans', sans-seri;
+    font-size: 21px; */
+    font-weight: lighter;
+
+}
+#plum{
+    width: 140px;
+    height: 50px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    position: absolute;
+    margin-top: 90px;
+    border-radius: 5px
+}
+#avocado{
+    width: 110px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+#lth{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: -60px;
+    position: absolute;
+}
+#black{
+    margin-top: 50px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    width: 90px;
+    font-size: 21px;
+    margin-left: -0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    border-radius: 5px;
+
+
+}
+#htl{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 340px;
+    border-radius: 5px;
+    margin-top: -60px;
+}
+.image{
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -60px;
+}
+
+.image123{
+    margin-left: 670px;
+}
+#show{
+    margin-top: 30px;
+    margin-left: 410px;
+    font-size: 22px;
+    color: rgb(51, 45, 45);
+    font-style:'Open Sans', sans-seri;
+    position: absolute;
+    
+
+}
+#sor{
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+    margin-left: 10px;
+}
+#ap
+{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 600px;
+    border-radius: 5px;
+    margin-top: -60px;
+}
+#dis{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 470px;
+    border-radius: 5px;
+    margin-top: -60px;
+}
+#sorting{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 10px;
+    width: 800px;
+    height: 50px;
+}
+#grey{
+    margin-top: 100px;
+    position: absolute;
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    width: 90px;
+    font-size: 21px;
+    margin-left: -0px;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    border-radius: 5px;
+}
+#nec{
+    width: 90px;
+    font-size: 21px;
+    color: black;
+    margin-left: 0px;
+    position: absolute;
+
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#filter
+{
+    border: 1px solid white;
+    width: 330px;
+    position: absolute;
+    height: 800px;
+    background-color: #FFFFFF;
+
+}
+.pricing{
+    text-decoration: line-through;
+    margin-left: 70px;
+    margin-top: 408px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    position:absolute;
+    font-weight: bolder;
+}
+.pricing1{
+    
+        text-decoration: line-through;
+        margin-left: 80px;
+        font-weight: bolder;
+        position:absolute;
+        font-size: 20px;
+        margin-top: 408px;
+}
+.pricing2{
+        margin-left: 18px;
+        font-weight: bold;
+        font-size: 25px;
+        position:absolute;
+        margin-top: 430px;
+
+}
+.button{
+    margin-top: 450px;
+    margin-left: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    background-color: rgb(92, 202, 239);
+    height: 30px;
+    border: 1px solid white;
+}
+.pricing3{
+    
+    margin-left: 31px;
+    font-weight: bold;
+    font-size: 25px;
+    position:absolute;
+    margin-top: 430px;
+
+}
+
+

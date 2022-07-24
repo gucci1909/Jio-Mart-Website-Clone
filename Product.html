@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avocado,Peach,Plum</title>
+    <link rel="stylesheet" href="./style/Product.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+</head>
+<body>
+    <nav id="navbars"></nav>
+    <div id="body">
+    <div>
+        <img src="https://www.jiomart.com/images/category/3108/avocado-peach-plum-20220524.jpeg" class="image123" alt="jiomart">
+    </div>
+    <h1 id="show">Showing 8 of 8 items</h1>
+    <div id="sorting">
+      <p id="sor">Sort By</p>
+      <button onclick="bbn()" id="lth">Low To High</button>
+      <button onclick="ssn()" id="htl">High To Low</button>
+      <button onclick="Discount()" id="dis">Discount</button>
+      <button onclick="allP()" id="ap">All Products</button>
+    </div>
+    <div id="filter">
+    <h3 id="id">Availabilty</h3>
+    <button onclick="Stock()" id="stock">In Stock</button>
+    <h3 id="filter2">Filter by Category</h3>
+    <button onclick="Peach()" id="peach">Peach</button>
+    <button onclick="Plum()" id="plum">Plum</button>
+    <button onclick="Avocado()" id="avocado">Avocado</button>
+    <button onclick="Nectarine()" id="nec">Nectarine</button>
+    </div>
+    <div id="products"></div>
+    </div>
+</body>
+</html>
+<script src="./js/Product.js"></script>
+<script type="module">
+    import {navbar} from "./components/navbars.js"
+    document.getElementById("navbars").innerHTML = navbar();
+</script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>

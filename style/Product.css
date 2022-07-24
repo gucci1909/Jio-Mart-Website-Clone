@@ -1,0 +1,276 @@
+.h1{
+    position: absolute;
+    height: 2px;
+    font-size: 16px;
+    color: white;
+    line-height: 17px;
+    margin-left: 12px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+#body{
+    background-color: rgb(241, 241, 245);
+}
+.class{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#products{
+    display: grid;
+    width: 85%;
+    margin-left: 200px;
+    height: 850px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,400px);
+    gap: 0px;
+    background-color: white;
+}
+.name{
+    font-family: 'Open Sans', sans-seri;
+        font-size: 21px;
+    color: #151b39;
+    margin-left: 10px;
+    line-height: 18px;
+}
+.class{
+    margin-left: 20px;
+    margin-top: 40px;
+    justify-items: auto;
+    padding-top: 50px;
+    /* margin-bottom: 10/0px; */
+    margin-right: 20px;
+    height: 310px;
+}
+.img145
+{
+    height: 60px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.h2
+{
+    position: absolute;
+    height: 2px;
+    font-size: 16px;
+    color: white;
+    line-height: 17px;
+    margin-left: 12px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.pr{
+    margin-left: 20px;
+    position: absolute;
+    font-style:'Open Sans', sans-seri;
+    padding-top: 0px;
+    margin-top: 7px;
+    
+}
+#stock
+{
+    position: absolute;
+
+}
+#filter2{
+    margin-top: 80px;
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+
+}
+#id
+{
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+}
+#stock{
+    width: 90px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px
+}
+#peach{
+    width: 90px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px
+}
+#plum{
+    width: 90px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    margin-top: 10px;
+    border-radius: 5px
+}
+#avocado{
+    width: 110px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+#lth{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: -60px;
+    position: absolute;
+}
+#htl{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 340px;
+    border-radius: 5px;
+    margin-top: -60px;
+}
+.image123{
+    margin-left:650px;
+    margin-top: 20px;
+}
+#show{
+    margin-top: 30px;
+    margin-left: 210px;
+    font-size: 21px;
+    color: rgb(51, 45, 45);
+    font-style:'Open Sans', sans-seri;
+    position: absolute;
+    
+
+}
+#sor{
+    font-style:'Open Sans', sans-seri;
+    font-size: 21px;
+    margin-left: 10px;
+}
+#ap{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 600px;
+    border-radius: 5px;
+    margin-top: -60px;
+}
+#dis{
+    width: 110px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: grey;
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 470px;
+    border-radius: 5px;
+    margin-top: -60px;
+}
+#sorting{
+    /* position: absolute; */
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 750px;
+    /* margin-bottom: 200px; */
+    height: 50px;
+    width: 750px;
+}
+#nec{
+    width: 120px;
+    font-size: 21px;
+    color: black;
+    cursor: pointer;
+    font-style:'Open Sans', sans-seri;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#filter
+{
+    border: 1px solid white;
+    width: 180px;
+    position: absolute;
+    height: 800px;
+    background-color: white;
+
+}
+.pricing{
+    text-decoration: line-through;
+    margin-left: 70px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    position:absolute;
+    font-weight: bolder;
+}
+.pricing1{
+    
+        text-decoration: line-through;
+        margin-left: 80px;
+        font-weight: bolder;
+        position:absolute;
+        font-size: 20px;
+        margin-top: 5px;
+}
+.pricing2{
+        margin-left: 18px;
+        font-weight: bold;
+        position:absolute;
+        margin-top: -15px;
+
+}
+.button{
+    margin-top: 24px;
+    margin-left: 130px;
+    border-radius: 5px;
+    cursor: pointer;;
+    background-color: rgb(92, 202, 239);
+    height: 30px;
+    border: 1px solid white;
+}
+.pricing3{
+    
+    margin-left: 28px;
+    font-weight: bold;
+    font-size: 17px;
+    position:absolute;
+    margin-top: -15px;
+
+}
+
+
+    
