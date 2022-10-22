@@ -3,7 +3,7 @@ Clone Website of Jiomart website in which i've deployed my own api . You can add
 
 # Jio Mart
 
-> KindMeal.my is Malaysia's leading meat-free lifestyle platform, indulging you with delicious discounted vegetarian meals at cozy environments. I've made the clone website of kindmeal.my . I've created Home page , Signup page , Login page and Kindmeal products page
+> JioMart is an online grocery store that provides 50,000+ grocery products at discounted rates at your doorstep through an express delivery system. It was a group project and we made the clone website of Jiomart in which we created Home page , Signup page , Login page and 2 products page - Fruits and Fashion page in which sorting , filtering and api's are used , Cart page and Delivery location page
 
 ## Built With
 
@@ -16,7 +16,7 @@ Clone Website of Jiomart website in which i've deployed my own api . You can add
 
 ## Live Demo 
 
-[Vercel link available here](https://domineering-kick-7131.vercel.app/)
+[Deployed link available here](https://gucci1909.github.io/Jio-Mart-Website-Clone/)
 
 
 
@@ -38,3 +38,11 @@ GitHub
 👤 **Umang Arora**
 
 - GitHub: [@gucci1909](https://github.com/gucci1909)
+
+👤 **Jigna**
+
+- GitHub: [@jigna16](https://github.com/jigna16)
+
+👤 **Vivek**
+
+- GitHub: [@vivekanjankc12345](https://github.com/vivekanjankc12345)
