@@ -1,18 +1,18 @@
 # Jio-Mart-Website-Clone
 Clone Website of Jiomart website in which i've deployed my own api . You can add your products to the cart and buy them 
 
-# Kindmeal
+# Jio Mart
 
-Project original website- https://www.kindmeal.my/
 > KindMeal.my is Malaysia's leading meat-free lifestyle platform, indulging you with delicious discounted vegetarian meals at cozy environments. I've made the clone website of kindmeal.my . I've created Home page , Signup page , Login page and Kindmeal products page
 
 ## Built With
 
-- React.js
-- Chakra UI
-- Express
-- Mongo DB
-- Heroku
+- Javascript
+- Html5
+- Css3
+- Api - which identifies your current location
+- Local Storage
+- Bootstrap
 
 ## Live Demo 
 
@@ -23,11 +23,11 @@ Project original website- https://www.kindmeal.my/
 
 
 ### Prerequisites
-React.js,Chakra UI,Express,Mongo DB,Api,Heroku.
+Javascript , Html5 , Css3 , Local Storage , Bootstrap
 
 ### Setup
 VS code,
-GitHub,Mongo DB,Heroku
+GitHub
 
 
 
