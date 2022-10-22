@@ -1,6 +1,3 @@
-# Jio-Mart-Website-Clone
-Clone Website of Jiomart website in which i've deployed my own api . You can add your products to the cart and buy them 
-
 # Jio Mart
 
 > JioMart is an online grocery store that provides 50,000+ grocery products at discounted rates at your doorstep through an express delivery system. It was a group project and we made the clone website of Jiomart in which we created Home page , Signup page , Login page and 2 products page - Fruits and Fashion page in which sorting , filtering and api's are used , Cart page and Delivery location page
