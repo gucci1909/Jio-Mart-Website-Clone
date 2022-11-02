@@ -1,9 +1,9 @@
 let search = async() =>{
-  let res = await fetch(`https://umang-api.herokuapp.com/`);
+  let res = await fetch(`https://umang-arora-products.onrender.com/Products`);
   let data = await res.json();
   console.log(data);
-  display(data.Products);
-  return data.Products;
+  display(data);
+  return data;
 }
 search()
 function display(data)
