@@ -19,7 +19,7 @@
 
 ## Screenshots
 
-![App Screenshot](./image/jiomart.png)
+![App Screenshot](http://res.cloudinary.com/dtdqzefvj/image/upload/v1670845738/lfxh7xyxngjct0rrupip.png)
 
 
 
